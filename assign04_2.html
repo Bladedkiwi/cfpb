@@ -1,0 +1,202 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Kian Hyatt">
+    <meta name="description" content="CIT 213: The Teddy Bear Companion">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kian Hyatt's Assignments</title>
+    <link rel="stylesheet" href="./main_styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Galada&family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+<style>
+    h2 {
+        margin: auto;
+        margin-top: 15vh;
+        border-bottom: 5px double black;
+        border-radius: 0 20%;
+        width: 22vw;
+    }
+
+    body .tags {
+        flex-direction: column;
+        margin-top: 1em;
+        width: 55vw;
+    }
+
+    .tags .tags__info {
+        display: grid;
+        grid-template-areas: "pic info";
+        grid-gap: 1em;
+        margin-bottom: 5em;
+    }
+
+    .tags__info figure {
+        grid-area: pic;
+    }
+
+    .tags__info p {
+        grid-area: info;
+    }
+
+    body figure img {
+        border: 5px inset maroon;
+        border-radius: 10%;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <!--Logo + link-->
+        <a href="#"><img src="./img/logobear.jpg" alt="The Teddy Companion Logo"></a>
+        <!--Cart + Search Bar-->
+        <div class="hdr__user-pos">
+            <form>
+                <input type="text" placeholder="Search..." name="search">
+                <button type="submit"><span class="btns__char-color">&#9735;</span></button>
+            </form>
+            <p><a href="https://en.wikipedia.org/wiki/Shopping_cart">My Cart<span
+                        class="btns__char-color">&#10066;</span></a></p>
+
+        </div>
+        <!--Title:The Teddy Companion + motto:Over 1 million teddy bears homed-->
+        <div class="hdr__title-pos">
+            <h1>The Teddy Companion</h1>
+            <div>Over 1 million teddy bears befriended</div>
+        </div>
+    </header>
+    <nav>
+        <!--Navigation-->
+        <ul>
+            <li><a href="./assign04.html">Home</a></li>
+            <li><a href="./assign04_2.html" class="active">Teddy Bears &#9825;</a></li>
+            <li><a href="#">My Order</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </nav>
+    <h2>Current Bears in production:</h2>
+    <div class="col-left">
+        <!--Left side Highlights/Offers/Contact-->
+        <div class="left__btns-pos">
+            <button><span class="btns__char-color">&#9736;</span>Browse</button>
+            <button><span class="btns__char-color">&#9736;</span>The New TB 2000</button>
+            <button><span class="btns__char-color">&#9736;</span>Metallic TB</button>
+            <button><span class="btns__char-color">&#9736;</span>TB Nutrition</button>
+            <button><span class="btns__char-color">&#9736;</span>TB Likes/Dislikes</button>
+            <button><span class="btns__char-color">&#9736;</span>Success Stories</button>
+
+        </div>
+        <form>
+            <fieldset>
+                <legend>Custom Order:</legend>
+                <label class="fieldset-slct">
+                    <select name="fluffy">
+                        <option value="">Fluffyness Level: </option>
+                        <option value="bare">Bare</option>
+                        <option value="short-haired">Short-haired</option>
+                        <option value="medium-haired">Medium-haired</option>
+                        <option value="long-haired">Long-haired</option>
+                    </select>
+                </label>
+                <label class="fieldset-slct">
+                    <select name="hair">
+                        <option value="">Hair Type: </option>
+                        <option value="wirey">Wirey</option>
+                        <option value="thick">Thick</option>
+                        <option value="thin">Thin</option>
+                        <option value="natural">Natural</option>
+                    </select>
+                </label>
+                <label class="fieldset-slct">
+                    <select name="hair">
+                        <option value="">Hair Type: </option>
+                        <option value="wirey">Wirey</option>
+                        <option value="thick">Thick</option>
+                        <option value="thin">Thin</option>
+                        <option value="natural">Natural</option>
+                    </select>
+                </label>
+            </fieldset>
+            <button type="submit">Check Warehouse</button>
+        </form>
+    </div>
+    <div class="tags">
+        <!--Tag pics of teddy bears, that link to the second page and an anchor-->
+        <div class="tags__info">
+            <figure>
+                <img src="./img/teddy1.jpg" alt="Teddy bear on a bench">
+                <figcaption>Barry</figcaption>
+            </figure>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nam amet expedita aut veritatis
+                dolorum modi repellendus fuga quisquam saepe animi omnis beatae, unde, culpa illum minima ipsam ratione
+                tempore?</p>
+        </div>
+        <div class="tags__info">
+            <figure>
+                <img src="./img/teddy2.jpg" alt="Teddy bear with a note on a bench">
+                <figcaption>Jeff</figcaption>
+            </figure>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nam amet expedita aut veritatis
+                dolorum modi repellendus fuga quisquam saepe animi omnis beatae, unde, culpa illum minima ipsam ratione
+                tempore?</p>
+        </div>
+        <div class="tags__info">
+            <figure>
+                <img src="./img/teddy5.jpg" alt="Teddy bear next to shoes">
+                <figcaption>Moniqua</figcaption>
+            </figure>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nam amet expedita aut veritatis
+                dolorum modi repellendus fuga quisquam saepe animi omnis beatae, unde, culpa illum minima ipsam ratione
+                tempore?</p>
+        </div>
+        <div class="tags__info">
+            <figure>
+                <img src="./img/teddy3.jpg" alt="Teddy bear with lights all around">
+                <figcaption>Trixy</figcaption>
+            </figure>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nam amet expedita aut veritatis
+                dolorum modi repellendus fuga quisquam saepe animi omnis beatae, unde, culpa illum minima ipsam ratione
+                tempore?</p>
+        </div>
+        <div class="tags__info">
+            <figure>
+                <img src="./img/teddy4.jpg" alt="Teddy bear holding on for dear life">
+                <figcaption>Mufasa</figcaption>
+            </figure>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nam amet expedita aut veritatis
+                dolorum modi repellendus fuga quisquam saepe animi omnis beatae, unde, culpa illum minima ipsam ratione
+                tempore?</p>
+        </div>
+    </div>
+    <footer>
+        <!--Footer-->
+        <form class="mini-form">
+            <fieldset>
+                <legend>Questions/Concerns?</legend>
+                <label class="mini-input">Full Name:<span class="req">*</span><input type="text" name="name"
+                        pattern="[A-Za-z]{5}" required></label>
+                <label class="mini-input">Email:<span class="req">*</span><input type="email" name="email"
+                        placeholder="name@example.com" required></label>
+                <label class="mini-input">Please Explain: <textarea id="commentBox" name="text" cols="10" rows="3"
+                        placeholder="Comments Here..."></textarea></label>
+                <label class="submission"><input type="Submit" value="Ask Now"></label>
+            </fieldset>
+        </form>
+        <div class="company-info">
+            <h3>The Teddy Companion</h3>
+            <a class="footer-icons" href="http://www.facebook.com" target="_blank"><img src="./img/facebook-like.png"
+                    alt="Facebook Thumbs Up Link"></a>
+            <a class="footer-icons" href="http://www.twitter.com" target="_blank"><img src="./img/twitter.png"
+                    alt="Twitter Link"></a>
+            <a class="footer-icons" href="http://www.whatsapp.com" target="_blank"><img src="./img/whatsapp.png"
+                    alt="WhatsApp Link"></a>
+            <p>| &copy; 2020<br> | The Teddy Difference Inc. <br>| 420 Hugs Drive <br>| Hopeville, Montana 534722 </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
